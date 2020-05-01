@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <title>My Meals Recipes</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css" media="screen">
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="../img/logo/logo2">
+</head>
+
+<body>
+  <nav id="normal">
+    <div id="menu">Menu</div>
+    <ul class="navlogo">
+      <li><a style="color:#800000">My Meals Recipes</a></li>
+    </ul>
+    <ul class="navbar-right">
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Food</a>
+        <div class="dropdown-content">
+          <a href="seafood.html">Seafood Recipes</a>
+          <a href="vegetarian.html">Vegetarian Recipes</a>
+          <a href="pasta.html">Pasta Recipes</a>
+          <a href="dessert.html">Dessert Recipes</a>
+        </div>
+      </li>
+      <li><a href="about_us.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <header id="normal-head">
+    <img src="img/header/contact-us.jpg" alt="How-to Videos">
+  </header> 
+                
+  <main>
+    <div id="container">
+      <div id="description">
+          <h1>About Us</h1>
+          <p></p>
+      </div>
+          
+      <div id="contact">
+          <h1>My Meals Recipes</h1>
+          <p>If you have a recipe to shared in My Meals Recipes Website, please send your recipes in contact : </p>
+          
+          <form id="javascript_form">
+            <div class="textarea">
+              <input type="text" name="subject" placeholder="Subject" />
+              <textarea name="text" placeholder="Message"></textarea>
+              <input type="submit" id="js_send" value="Send" />
+            </div>
+          </form>
+
+      </div>
+
+      <div class="container">
+        <div id="Identitas">
+                  <h1>Ni Putu Esti Primanicipta</h1>
+                  <br>
+                  E1500369 - CSW202
+        </div>
+      </div>
+    </div>    
+  </main>            
+            <footer>    
+              <div class="wrapper">
+                  <span>Copyright 2020 &COPY; Esti Primani</span><br>                 
+                  <a href="#" style="color:white">Privacy Policy</a> | <a href="#" style="color:white">Terms of Use</a>
+              </div>
+          </footer>
+        <script src="js/jquery-3.2.0.min.js"></script>
+
+        <script src="js/mail.js"></script>
+        <script>
+            $("#menu").click(function() {
+                $("#normal ul").toggle();
+              });
+              
+        </script>
+    </body>
+</html>
